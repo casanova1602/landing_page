@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href='./assets/css/style.css'>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <title>Landing Page -- Portfolio</title>
+</head>
+
+<body>
+    <input type="checkbox" class="check-burger" id="check-burger" role="button" aria-label="Close Menu">
+    <label for="check-burger" class="burger" title="Close Menu"></label>
+    <aside class="menu bg-white">
+        <div class="main-content menu-content">
+            <div class="logo"><a href="#" onclick="getElementById('check-burger').checked=false;"><img
+                        src="./assets/img/logo.png"></a>
+            </div>
+            <nav>
+                <ul onclick="getElementById('check-burger').checked=false;">
+                    <li><a href="#bio">bio</a></li>
+                    <li><a href="#grid-one">grid-one</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#grid-two">grid-two</a></li>
+                    <li><a href="#pricing">pricing</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <section class="bg-main section">
+        <div class="main-content intro-grid">
+            <div class="intro-content">
+                <h2>This is an example of the main title </h2>
+                Esse é um exemplo de um texto sendo inserido abaixo do título principal acompanhado com um padrão
+                Lorem.<br><br>
+                <i>This is an example of text being inserted below the main title followed by a Lorem
+                    pattern.</i><br><br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="intro-img">
+                <img src="./assets/img/pizza.svg">
+            </div>
+        </div>
+    </section>
+    <section class="bg-white section" id="bio">
+        <div class="main-content bio">
+            <h2>bio</h2>
+            <p>
+                Uma página simples HTML com CSS apresentada no modelo Landing Page para demonstrar meus conhecimentos em
+                HTML5 e CSS3 obtidos através de cursos. <br><br>
+                <i>A simple HTML page with CSS presented in the Landing Page template to demonstrate my knowledge in
+                    HTML5 and CSS3 obtained through courses.</i> 😊<br><br>
+            </p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum maiores ducimus autem repellendus facilis
+                quae nobis tenetur reiciendis odit dolor obcaecati amet ipsam, consequatur voluptatem illum laudantium
+                doloremque est atque!</p>
+            <br>
+            <div class="logos-grid">
+                <img src="./assets/img/HTML5_Badge.svg.png">
+                <img src="./assets/img/CSS3_logo.svg.png">
+            </div>
+        </div>
+    </section>
+    <section class="section bg-main" id="grid-one">
+        <div class="main-content grid-content">
+            <h2 class="grid-headling grid-text">My Grid</h2>
+            <p class="grid-description">Um grid com counter. Aqui pode inserir uma descrição / <i>A grid with counter.
+                    Here you can enter a description</i></p>
+            <div class="grid">
+                <article>
+                    <h3 class="subtitle">Subtitle Grid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cum eius porro odio expedita,
+                        debitis ipsa adipisci vel suscipit iure aut maiores modi blanditiis illo sed eligendi ipsam sint
+                        id.</p>
+                </article>
+                <article>
+                    <h3 class="subtitle">Subtitle Grid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cum eius porro odio expedita,
+                        debitis ipsa adipisci vel suscipit iure aut maiores modi blanditiis illo sed eligendi ipsam sint
+                        id.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white section" id="gallery">
+        <div class="main-content grid-content">
+            <h2 class="grid-headling">My Gallery</h2>
+            <p class="grid-description">Um grid com galeria de imagens. Aqui pode inserir uma descrição / <i>
+                    A grid with image gallery. Here you can enter a description</i></p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360/?r=1" alt="random picture">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360/?r=2" alt="random picture">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360/?r=3" alt="random picture">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360/?r=4" alt="random picture">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360/?r=5" alt="random picture">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360/?r=6" alt="random picture">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-main section">
+        <div class="main-content grid-content" id="grid-two">
+            <h2 class="grid-headling grid-text">My Grid</h2>
+            <p class="grid-description">Um grid com counter. Aqui pode inserir uma descrição / <i>A grid with counter.
+                Here you can enter a description</i></p></p>
+            <div class="grid">
+                <article>
+                    <h3 class="subtitle">Subtitle Grid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cum eius porro odio expedita,
+                        debitis ipsa adipisci vel suscipit iure aut maiores modi blanditiis illo sed eligendi ipsam sint
+                        id.</p>
+                </article>
+                <article>
+                    <h3 class="subtitle">Subtitle Grid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cum eius porro odio expedita,
+                        debitis ipsa adipisci vel suscipit iure aut maiores modi blanditiis illo sed eligendi ipsam sint
+                        id.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white section" id="pricing">
+        <div class="main-content bio">
+            <h2>Pricing</h2>
+            <p>Implementada a numeração da 'label do checkbox via 'counter' do CSS. As contagens dos totais dos checkboxes também foi implementado via 'counter' </p><br>
+            <p><i>Implemented the numbering of the 'checkbox label' via CSS 'counter'. Checkbox total counts were also implemented via 'counter'</i></p>
+            <div class="grid-checkbox">
+                <div class="item-checkbox">
+                    <input type="checkbox" id="checkbox1">
+                    <label for="checkbox1">Checkbox</label>
+                </div>
+                <div class="item-checkbox">
+                    <input type="checkbox" id="checkbox2">
+                    <label for="checkbox2">Checkbox</label>
+                </div>
+                <div class="item-checkbox">
+                    <input type="checkbox" id="checkbox3">
+                    <label for="checkbox3">Checkbox</label>
+                </div>
+                <div class="item-checkbox">
+                    <input type="checkbox" id="checkbox4">
+                    <label for="checkbox4">Checkbox</label>
+                </div>
+                <div class="item-checkbox">
+                    <input type="checkbox" id="checkbox5">
+                    <label for="checkbox5">Checkbox</label>
+                </div>
+                <div class="item-checkbox">
+                    <input type="checkbox" id="checkbox6">
+                    <label for="checkbox6">Checkbox</label>
+                </div>
+                <div class="item-checkbox">
+                    <input type="checkbox" id="checkbox7">
+                    <label for="checkbox7">Checkbox</label>
+                </div>
+                <div class="item-checkbox">
+                    <input type="checkbox" id="checkbox8">
+                    <label for="checkbox8">Checkbox</label>
+                </div>
+                <div class="item-checkbox">
+                    <input type="checkbox" id="checkbox9">
+                    <label for="checkbox9">Checkbox</label>
+                </div>
+            </div>
+            <div class="grid-checkbox-resultado">
+                <div class="counter-checked">Total checked: </div>
+                <div class="counter-unchecked">Total unchecked: </div>
+            </div>
+            <div class="responsive-table">
+                <table>
+                    <caption>My table</caption>
+                    <thead>
+                        <th>Title 1</th>
+                        <th>Title 2</th>
+                        <th>Title 3</th>
+                        <th>Title 4</th>
+                        <th>Title 5</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Testando</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section class="bg-main section" id="contact">
+        <div class="main-content intro-grid contact">
+            <div class="intro-content">
+                <h2>Contact</h2>
+                <p>Formulário de contato em flexbox e grid totalmente customizado em CSS</p><br>
+                <p><i>Contact form in flexbox and grid, fully customized in CSS</i></p> <br>
+                <p>📍Wayne Manor, outside Gotham City</p>
+                <p>📞 +55 11 2222-2222</p>
+            </div>
+            <img src="./assets/img/undraw_contact_us_re_4qqt.svg">
+        </div>
+        <div class="main-content-contact intro-grid">
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact Me</legend>
+                    <div class="form-group">
+                        <label>First Name: </label>
+                        <input type="text" name="first-name" placeholder="First Name" id="first-name">
+                    </div>
+                    <div class="form-group">
+                        <label>Last Name: </label>
+                        <input type="text" name="last-name" placeholder="Last Name" id="last-name">
+                    </div>
+                    <div class="form-group sozinho">
+                        <label>E-mail: </label>
+                        <input type="text" name="email" placeholder="E-mail" id="email">
+                    </div>
+                    <div class="form-group sozinho">
+                        <label>Message: </label>
+                        <textarea name="message" rows="10" cols="30" placeholder="Message" id="message"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <p>Feito com <span>❤</span> por André Roberto</p>
+        </div>
+    </footer>
+    <a class="back-top" href="#">➥</a>
+</body>
+
+</html>
