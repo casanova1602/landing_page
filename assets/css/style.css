@@ -525,5 +525,32 @@ footer span{
     footer p{
         padding: 1rem;
     }
+
+    .item-checkbox{
+        font-size: 1.4rem;
+    }
+
+    .grid-checkbox-resultado{
+        font-size: 1.6rem;
+    }
+
+    h2.grid-text::after{
+        font-size: 3.5rem;
+    }
+}
+
+@media(max-width: 395px){
+    .back-top{
+        right: 3rem;
+        bottom: 5rem;
+    }
+
+    .grid-checkbox-resultado{
+        font-size: 1.4rem;
+    }
+
+    .form-grid legend{
+        padding-top: 2rem;
+    }
 }
 
