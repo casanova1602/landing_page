@@ -27,11 +27,12 @@ body {
 }
 
 h1 {
+    font-size: 6.0rem;
     text-transform: uppercase;
 }
 
 h2 {
-    font-size: 6rem;
+    font-size: 5.5rem;
     margin-bottom: 5rem;
     line-height: 1.2;
     text-transform: uppercase;
@@ -72,7 +73,7 @@ a {
 .bg-main {
     background-image: url('../img/main-svg.svg');
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     color: var(--white-color);
 }
 
@@ -515,6 +516,11 @@ footer span{
         background-color: var(--white-color);
         color: var(--primary-color);
     }
+
+    .intro-content .welcome::after{
+        content : '\00a0🎉';
+        font-size: 6rem;
+    }
 }
 
 @media(max-width: 450px){
@@ -535,6 +541,14 @@ footer span{
     }
 
     h2.grid-text::after{
+        font-size: 3.5rem;
+    }
+    .main-content.intro-grid{
+        padding-top: 5rem;
+    }
+
+    .intro-content .welcome::after{
+        content : '\00a0🎉';
         font-size: 3.5rem;
     }
 }
